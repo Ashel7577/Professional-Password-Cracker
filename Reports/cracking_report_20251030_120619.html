@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Cracking Assessment Report</title>
+    <meta charset="UTF-8">
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 40px;
+            background: #f9f9f9;
+            color: #333;
+        }
+        .report-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #2c3e50;
+            margin: 0;
+        }
+        .header p {
+            color: #7f8c8d;
+            margin: 5px 0 0 0;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #3498db;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .info-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .info-item strong {
+            display: block;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-box {
+            text-align: center;
+            background: #3498db;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .stat-value {
+            font-size: 28px;
+            font-weight: bold;
+            display: block;
+        }
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        .finding {
+            background: #e8f4fc;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        .recommendation {
+            background: #fff8e1;
+            border-left: 4px solid #f39c12;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #3498db;
+            color: white;
+        }
+        tr:hover {
+            background: #f5f5f5;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #7f8c8d;
+            font-size: 12px;
+        }
+        .disclaimer {
+            background: #fef5e7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #f39c12;
+        }
+    </style>
+</head>
+<body>
+    <div class="report-container">
+        <div class="header">
+            <h1>🔒 Password Cracking Assessment Report</h1>
+            <p>Professional Security Evaluation</p>
+            <p>Generated: October 30, 2025 at 12:06 PM</p>
+        </div>
+        
+        <div class="section">
+            <h2>🎯 Assessment Overview</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>Session ID</strong>
+                    1761806170573
+                </div>
+                <div class="info-item">
+                    <strong>Target Hash</strong>
+                    e10adc3949ba59abbe56e057f20f883e
+                </div>
+                <div class="info-item">
+                    <strong>Hash Type</strong>
+                    MD5
+                </div>
+                <div class="info-item">
+                    <strong>Attack Method</strong>
+                    dict
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📊 Performance Metrics</h2>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-value">2</span>
+                    <span class="stat-label">Attempts</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-value">8.75s</span>
+                    <span class="stat-label">Duration</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-value">4,832</span>
+                    <span class="stat-label">Pwd/sec</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-value">123456</span>
+                    <span class="stat-label">Result</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🔍 Key Findings</h2>
+            <div class="finding">
+                <strong>Password Security Assessment:</strong>
+                <p>The target hash was successfully cracked, revealing the password: <strong>123456</strong></p>
+            </div>
+            
+            
+        <div class="finding">
+            <strong>Password Strength Analysis:</strong>
+            <p>Evaluated password: <strong>123456</strong></p>
+            <p>Security Score: <strong style="color: #e74c3c">10/100 (Weak)</strong></p>
+        </div>
+        
+            <div class="recommendation">
+                <strong>Issues Identified:</strong>
+                <ul><li>Password is too short</li><li>Missing lowercase letters</li><li>Missing uppercase letters</li><li>Missing special characters</li></ul>
+            </div>
+            
+        
+        </div>
+        
+        <div class="section">
+            <h2>💡 Security Recommendations</h2>
+            <div class="recommendation">
+                <strong>Password Policy Enhancements:</strong>
+                <ul>
+                    <li>Enforce minimum password length of 12+ characters</li>
+                    <li>Require complex character combinations (upper, lower, digits, symbols)</li>
+                    <li>Implement password expiration policies</li>
+                    <li>Use multi-factor authentication for sensitive accounts</li>
+                    <li>Deploy password blacklists to prevent common/weak passwords</li>
+                </ul>
+            </div>
+            
+            <div class="recommendation">
+                <strong>Technical Mitigations:</strong>
+                <ul>
+                    <li>Use strong, salted password hashing algorithms (bcrypt, Argon2)</li>
+                    <li>Implement account lockout mechanisms after failed attempts</li>
+                    <li>Monitor for unusual authentication patterns</li>
+                    <li>Regularly audit password databases for weak credentials</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📋 Technical Details</h2>
+            <table>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Start Time</td>
+                    <td>2025-10-30T12:06:10.573019</td>
+                </tr>
+                <tr>
+                    <td>End Time</td>
+                    <td>2025-10-30T12:06:19.323186</td>
+                </tr>
+                <tr>
+                    <td>Wordlist Used</td>
+                    <td>wordlists/common.txt</td>
+                </tr>
+                <tr>
+                    <td>Charset/Pattern</td>
+                    <td>?l?d</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="disclaimer">
+            <strong>🛡️ Ethical Usage Notice:</strong>
+            <p>This assessment was conducted for authorized penetration testing purposes only.
+            All activities were performed within the scope of the engagement with proper written permission.
+            Any discovered credentials should be handled according to responsible disclosure guidelines.</p>
+        </div>
+        
+        <div class="footer">
+            <p>Professional Password Cracking Assessment Report</p>
+            <p>Generated by Advanced Password Security Toolkit</p>
+            <p>Confidential - Authorized Personnel Only</p>
+        </div>
+    </div>
+</body>
+</html>
+        
