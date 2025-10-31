@@ -27,6 +27,8 @@ matrix123 - 2224e8c5299874a5fe44a8de2f31c94e
 
 It can crack over **million+** pattens and combinations!!
 
+when using brute-force cracker make sure to change charset to **abcdefghijklmnopqrstuvwxyz0123456789**
+
 ## 🛠️ Installation
 
 ```bash
