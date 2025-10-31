@@ -11,7 +11,7 @@ A comprehensive password security assessment tool with multiple attack vectors f
 - **Web Dashboard** - Real-time monitoring interface
 - **Progress Tracking** - Live statistics and performance metrics
 
-its generates detailed filled report instantly.
+its generates detailed report instantly.
 Its now live at https://ashel.pythonanywhere.com/
 
 Use examples : 
