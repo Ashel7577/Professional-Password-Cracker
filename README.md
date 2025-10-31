@@ -30,7 +30,7 @@ It can crack over **million+** pattens and combinations!!
 ## 🛠️ Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Ashel7577/Professional-Password-Cracker/tree/main
 cd password-cracker
 pip3 install -r requirements.txt
 
